@@ -474,12 +474,12 @@ body {
     color: black;
     font-size: 300%;
     margin-top: 100px;
-    margin-right: 120px;
+    margin-right: 20px;
     font-family: century gothic;
 }
 
 
-.left-image{
+.right-image{
     float: left;
     width: 450px;
     margin-top: 120px;
@@ -487,4 +487,14 @@ body {
     background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/40/drawing-933207_960_720.jpg");
     background-size: 450px 300px;
     background-repeat: no-repeat;
+}
+
+.wikipedia{
+    font-family: calibri light;
+    font-size: 110%;
+    float: right;
+    margin-right: 0px;
+    color: #c0c0c0;
+    text-align: left;
+    margin-top: 20px;
 }
