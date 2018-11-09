@@ -470,28 +470,21 @@ body {
 }
 
 .arc-text{
-    float: left;
+    float: right;
     color: black;
     font-size: 300%;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-right: 120px;
     font-family: century gothic;
-}
-
-
-.arc-text2{
-    float: left;
-    color: #c0c0c0;
-    font-size: 115%;
-    margin-left: -500px;
-    margin-top: 90px;
-    font-family: calibri light;
 }
 
 
 .side-image{
     float: left;
-    width: 600px;
-    height: 600pc;
-    background-image: url("Images/");
-    background-size: 600px 600px;
+    width: 450px;
+    margin-top: 120px;
+    height: 300px;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/40/drawing-933207_960_720.jpg");
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
 }
