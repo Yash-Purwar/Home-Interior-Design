@@ -1,0 +1,577 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 6px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: black
+}
+
+*::selection {
+    background-color: grey;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.front-image{
+    width: 100%;
+    height: 700px;
+    background-size: 100% 700px;
+    background-image: url("Images/apartment-architecture-bookcase-271816.jpg");
+    position: absolute;
+    top: -100px;
+}
+
+/*tab responsive designing*/
+@media screen and (max-width: 975px){
+    .front-image{
+        top: 0px;
+        width: 100%;
+        height: 500px;
+        background-size: 100% 500px;
+    }
+}
+
+/*mobile phone responsive designing*/
+@media screen and (max-width: 600px){
+    .front-image{
+        top: -100px;
+        width: 100%;
+        height: 450px;
+        background-size: 100% 450px;
+    }
+}
+
+/*mobile phone responsive designing*/
+@media screen and (max-width: 450px){
+    .front-image{
+        top: -100px;
+        width: 100%;
+        height: 350px;
+        background-size: 100% 350px;
+    }
+}
+
+.front-text{
+    color: white;
+    font-size: 300%;
+    font-family: century gothic;
+    text-transform: uppercase;
+    margin-top: 300px;
+    text-align:  center;
+}
+
+/*tab responsive designing*/
+@media screen and (max-width: 975px){
+    .front-text{
+        font-size: 224%;
+        margin-top: 180px;
+    }
+}
+
+/*mobile phone responsive designing*/
+@media screen and (max-width: 600px){
+    .front-text{
+        margin-top: 170px;
+        font-size: 6vw;
+    }
+}
+
+/*mobile phone responsive designing*/
+@media screen and (max-width: 450px){
+    .front-text{
+        margin-top: 150px;
+        font-size: 5vw;
+    }
+}
+
+.front-second-text{
+    font-size: 150%;
+    font-family: calibri light;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+/*tab responsive designing*/
+@media screen and (max-width: 975px){
+    .front-second-text{
+        font-size: 125%;
+    }
+}
+
+/*mobile phone responsive designing*/
+@media screen and (max-width: 500px){
+    .front-second-text{
+        font-size: 100%;
+    }
+}
+
+.front-btn a{
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-family: century gothic;
+    text-decoration: none;
+    font-size: 100%; 
+    padding: 12px 20px;
+    margin: 0px 8px;
+    -webkit-transition: .5s;
+}
+
+.front-btn a:hover{
+    transition: .5s;
+    color: black;
+    background-color: white;
+}
+
+@media screen and (max-width: 450px){
+    .front-btn a{
+        padding: 10px 12px;
+        font-size: 90%;
+    }
+}
+
+.middle-text{
+    text-align: center;
+    font-size: 350%;
+    color: black;
+    font-family: century gothic;
+    margin-top: 700px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 975px){
+    .middle-text{
+        margin-top: 550px;
+        font-size: 6.5vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .middle-text{
+        margin-top: 400px;
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .middle-text{
+        margin-top: 300px;
+    }
+}
+
+.content-max-width{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-gap: 10px;
+    margin-top: 90px;
+} 
+
+@media screen and (max-width: 1000px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 80px;
+    }
+}  
+
+@media screen and (max-width: 599px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 50px;
+    }
+
+    .content-max-width{
+        margin: auto;
+        max-width: 90%;
+    }
+} 
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+    height: 240px;
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    background-image: url("Images/kitchen-2174593_1920.jpg");
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: century gothic;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  text-transform: capitalize;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image2{
+    height: 240px;
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    background-image: url("Images/sofa-184551_1920.jpg");
+}
+
+.image3{
+    display: block;
+    height: 240px;
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    background-image: url("Images/interior-2685517_1920.jpg");
+}
+
+.image4{
+    height: 240px;
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    background-image: url("Images/home-663226.jpg");
+}
+
+.image5{
+    display: block;
+    height: 240px;
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    background-image: url("Images/home-663224.jpg");
+}
+
+.image6{
+    height: 240px;
+    background-size: 100% 240px;
+    background-repeat: no-repeat;
+    background-image: url("Images/bathroom-2094733_1920.jpg");
+}
+
+.middle-btn a{
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: century gothic;
+    text-decoration: none;
+    font-size: 100%; 
+    padding: 12px 20px;
+    margin: 0px 8px;
+    -webkit-transition: .5s;
+}
+
+.middle-btn a:hover{
+    transition: .5s;
+}
+
+@media screen and (max-width: 450px){
+    .middle-btn a{
+        padding: 10px 12px;
+        font-size: 90%;
+    }
+}
+
+
+
+.middle-heading{
+    float: left;
+    color: black;
+    font-size: 325%;
+    font-family: century gothic;
+    margin-top: 125px;
+}
+
+@media screen and (max-width: 1119px){
+    .middle-heading{
+        float: none;
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .middle-heading{
+        font-size: 8vw;
+        margin-top: 60px;
+    }
+}
+
+.small-heading{
+    float: left;
+    margin-left: -720px;
+    color: #c0c0c0;
+    font-size: 100%;
+    font-family: century gothic;
+    margin-top: 190px;
+}
+
+@media screen and (max-width: 1119px){
+    .small-heading{
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .small-heading{
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 90%;
+        margin-left: 0px;
+    }
+}
+
+.grid-container4{
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-rows: 120px;
+    grid-gap: 10px;
+    margin-top: 250px;
+}
+
+@media screen and (max-width: 1120px){
+    .grid-container4{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 668px){
+    .grid-container4{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 543px){
+    .grid-container4{
+        grid-template-columns: 100%;
+    }
+}
+
+.indoor-text{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 0px;
+    font-family: century gothic;
+    font-size: 100%;
+}
+
+.boxes{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.fa-thumbs-up{
+    color: orange;
+    margin-top: 40px;
+}
+
+.boxes2{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.fa-compass{
+    color: orange;
+    margin-top: 40px;
+}
+
+.boxes3{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.fa-heart{
+    color: orange;
+    margin-top: 40px;
+}
+
+.boxes4{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.fa-pencil-alt{
+    color: orange;
+    margin-top: 40px;
+}
+
+.boxes5{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.fa-building{
+    color: orange;
+    margin-top: 40px;
+}
+
+.boxes6{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+.fa-eye{
+    color: orange;
+    margin-top: 40px;
+}
+
+.lower-text{
+    color: black;
+    margin-top: 100px;
+    float: left;
+    font-size: 260%;
+    font-family: century gothic;
+}
+
+@media screen and (max-width: 1119px){
+    .lower-text{
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 599px){
+    .lower-text{
+        text-align: center;
+        float: none;
+        margin-top: -5px;
+        font-size: 6vw;
+        font-weight: bold;
+    }
+}
+
+
+.lower-text2{
+    color: #c0c0c0;
+    margin-top: 10px;
+    float: left;
+    font-size: 110%;
+    font-family: calibri light;
+}
+
+@media screen and (max-width: 1119px){
+    .lower-text2{
+        text-align: center;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .lower-text2{
+        font-size: 90%;
+    }
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 250px;
+    grid-gap: 10px;
+}
+
+@media screen and (max-width: 1119px){
+    .image-container{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 915px){
+    .image-container{
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .image-container{
+        grid-template-columns: 100%;
+        grid-gap: 10px;
+    }
+}
+
+
+.arc-image{
+    background-image: url("Images/Capture.png");
+    background-size: 100% 250px;
+    height: 250px;
+}
+
+.arc1-image{
+    background-image: url("Images/Capure.png");
+    background-size: 100% 250px;
+    height: 250px;
+}
+
+.arc2-image{
+    background-image: url("Images/Cpture.png");
+    background-size: 100% 250px;
+    height: 250px;
+}
+
+
+.arc3-image{
+    background-image: url("Images/Cpure.png");
+    background-size: 100% 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
