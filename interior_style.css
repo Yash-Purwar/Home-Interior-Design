@@ -469,109 +469,29 @@ body {
     margin-top: 40px;
 }
 
-.lower-text{
-    color: black;
-    margin-top: 100px;
+.arc-text{
     float: left;
-    font-size: 260%;
+    color: black;
+    font-size: 300%;
+    margin-top: 30px;
     font-family: century gothic;
 }
 
-@media screen and (max-width: 1119px){
-    .lower-text{
-        text-align: center;
-        float: none;
-    }
-}
 
-@media screen and (max-width: 599px){
-    .lower-text{
-        text-align: center;
-        float: none;
-        margin-top: -5px;
-        font-size: 6vw;
-        font-weight: bold;
-    }
-}
-
-
-.lower-text2{
-    color: #c0c0c0;
-    margin-top: 10px;
+.arc-text2{
     float: left;
-    font-size: 110%;
+    color: #c0c0c0;
+    font-size: 115%;
+    margin-left: -500px;
+    margin-top: 90px;
     font-family: calibri light;
 }
 
-@media screen and (max-width: 1119px){
-    .lower-text2{
-        text-align: center;
-        float: none;
-    }
+
+.side-image{
+    float: left;
+    width: 600px;
+    height: 600pc;
+    background-image: url("Images/");
+    background-size: 600px 600px;
 }
-
-@media screen and (max-width: 370px){
-    .lower-text2{
-        font-size: 90%;
-    }
-}
-
-.image-container{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin-top: 250px;
-    grid-gap: 10px;
-}
-
-@media screen and (max-width: 1119px){
-    .image-container{
-        margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 915px){
-    .image-container{
-        grid-template-columns: 50% 50%;
-        grid-gap: 10px;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .image-container{
-        grid-template-columns: 100%;
-        grid-gap: 10px;
-    }
-}
-
-
-.arc-image{
-    background-image: url("Images/Capture.png");
-    background-size: 100% 250px;
-    height: 250px;
-}
-
-.arc1-image{
-    background-image: url("Images/Capure.png");
-    background-size: 100% 250px;
-    height: 250px;
-}
-
-.arc2-image{
-    background-image: url("Images/Cpture.png");
-    background-size: 100% 250px;
-    height: 250px;
-}
-
-
-.arc3-image{
-    background-image: url("Images/Cpure.png");
-    background-size: 100% 250px;
-    height: 250px;
-}
-
-
-
-
-
-
-
