@@ -222,7 +222,7 @@ body {
   bottom: 0px;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -470,31 +470,172 @@ body {
 }
 
 .arc-text{
-    float: right;
     color: black;
     font-size: 300%;
-    margin-top: 100px;
-    margin-right: 20px;
+    margin-top: 50px;
+    text-align: center;
     font-family: century gothic;
 }
 
 
+
 .right-image{
     float: left;
-    width: 450px;
-    margin-top: 120px;
-    height: 300px;
+    width: 100%;
+    margin-top: 60px;
+    height: 250px;
     background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/40/drawing-933207_960_720.jpg");
-    background-size: 450px 300px;
+    background-size: 100% 250px;
     background-repeat: no-repeat;
+}
+
+.indentation{
+    max-width: 1110px;
+    margin: auto;
+}
+
+.image-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 40px;
+}
+
+@media screen and (max-width: 1114px){
+    .image-container{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0px;
+    }
+
+    .indentation{
+        max-width: 800px;
+    }
+
+    .right-image{
+        width: 100%;
+        height: 400px;
+        background-size: 100% 400px;
+    }
+}
+
+/*responsive designing*/
+@media screen and (max-width: 600px){
+    .right-image{
+        width: 100%;
+        margin-top: 30px;
+        height: 250px;
+        background-size: 100% 250px;
+    }
+
+    .arc-text{
+        font-size: 8vw;
+    }
 }
 
 .wikipedia{
     font-family: calibri light;
     font-size: 110%;
     float: right;
-    margin-right: 0px;
     color: #c0c0c0;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 1114px){
+    .wikipedia{
+        text-align: justify;
+        float: none;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+
+.indirect-text{
+    float: left;
+    color: black;
+    font-size: 325%;
+    font-family: century gothic;
+    margin-top: 125px;
+}
+
+/*font awesome display in one line*/
+.topnav{
+    list-style-type: none;
+    margin-top: 250px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+/*responsive font-awesome*/
+@media screen and (max-width: 600px){
+    .topnav{
+        margin-top: 350px;
+    }
+}
+
+.topnv{
+    text-align: center;
+}
+
+.topnv a{
+    display: inline;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*some font-awesome*/
+.fa-facebook{
+    -webkit-transition: .5s;
+      color: #3B5998;
+}
+
+.fa-facebook:hover{
+    transition: .5s;
+}
+
+.fa-whatsapp{
+    color: #25d366;
+    -webkit-transition: .5s;
+}
+
+.fa-whatsapp:hover{
+    transition: .5s;
+}
+
+.fa-twitter{
+    color: #0084b4;
+    -webkit-transition: .5s;
+}
+
+.fa-twitter:hover{
+    transition: .5s;
+}
+
+.fa-pinterest{
+    color: #c8232c;
+    -webkit-transition: .5s;
+}
+
+.fa-pinterest:hover{
+    transition: .5s;
+}
+
+.fa-linkedin{
+    color: #0077B5;
+    -webkit-transition: .5s;
+}
+
+.fa-linkedin:hover{
+    transition: .5s;
+}
+
+.fa-youtube{
+    color: #ff0000;
+    -webkit-transition: .5s;
+}
+
+.fa-youtube:hover{
+    transition: .5s;
 }
