@@ -471,7 +471,7 @@ body {
 
 .arc-text{
     color: black;
-    font-size: 300%;
+    font-size: 325%;
     margin-top: 70px;
     text-align: center;
     font-family: century gothic;
@@ -484,7 +484,7 @@ body {
     width: 100%;
     margin-top: 60px;
     height: 250px;
-    background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/40/drawing-933207_960_720.jpg");
+    background-image: url("Images/architect-architecture-black-and-white-1537008.jpg");
     background-size: 100% 250px;
     background-repeat: no-repeat;
 }
@@ -517,6 +517,34 @@ body {
         background-size: 100% 400px;
     }
 }
+
+
+.last-btn a{
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: century gothic;
+    text-decoration: none;
+    font-size: 100%; 
+    padding: 12px 20px;
+    margin: 0px 8px;
+    -webkit-transition: .5s;
+}
+
+.last-btn a:hover{
+    transition: .5s;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 450px){
+    .last-btn a{
+        padding: 10px 12px;
+        font-size: 90%;
+    }
+}
+
 
 /*responsive designing*/
 @media screen and (max-width: 600px){
@@ -555,7 +583,7 @@ body {
     color: black;
     font-size: 325%;
     font-family: century gothic;
-    margin-top: 125px;
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 1119px){
@@ -584,7 +612,7 @@ body {
 /*font awesome display in one line*/
 .topnav{
     list-style-type: none;
-    margin-top: 250px;
+    margin-top: 225px;
     padding: 0px;
     overflow: hidden;
 }
@@ -655,7 +683,7 @@ body {
 }
 
 .fa-youtube{
-    color: #ff0000;
+    color: #282828;
     -webkit-transition: .5s;
 }
 
