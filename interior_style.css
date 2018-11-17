@@ -472,7 +472,7 @@ body {
 .arc-text{
     color: black;
     font-size: 300%;
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
     font-family: century gothic;
 }
@@ -558,6 +558,29 @@ body {
     margin-top: 125px;
 }
 
+@media screen and (max-width: 1119px){
+    .indirect-text{ 
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .indirect-text{ 
+        float: none;
+        width: 100%;
+        text-align: center;
+        font-size: 8.5vw;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .indirect-text{ 
+        margin-top: 70px;
+    }
+}
+
 /*font awesome display in one line*/
 .topnav{
     list-style-type: none;
@@ -567,9 +590,9 @@ body {
 }
 
 /*responsive font-awesome*/
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1190px){
     .topnav{
-        margin-top: 350px;
+        margin-top: 50px;
     }
 }
 
