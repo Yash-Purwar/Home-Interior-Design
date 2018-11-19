@@ -578,49 +578,33 @@ body {
     }
 }
 
-.indirect-text{
-    float: left;
-    color: black;
-    font-size: 325%;
-    font-family: century gothic;
-    margin-top: 100px;
+
+.margin{
+    margin-top: 150px;
 }
 
-@media screen and (max-width: 1119px){
-    .indirect-text{ 
-        float: none;
-        width: 100%;
-        text-align: center;
-    }
-}
 
-@media screen and (max-width: 600px){
-    .indirect-text{ 
-        float: none;
-        width: 100%;
-        text-align: center;
-        font-size: 8.5vw;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .indirect-text{ 
-        margin-top: 70px;
-    }
-}
 
 /*font awesome display in one line*/
 .topnav{
     list-style-type: none;
-    margin-top: 225px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0px;
     overflow: hidden;
+    word-spacing: 20px;
 }
 
 /*responsive font-awesome*/
 @media screen and (max-width: 1190px){
     .topnav{
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .topnav{
+        word-spacing: 0px;
     }
 }
 
@@ -689,4 +673,147 @@ body {
 
 .fa-youtube:hover{
     transition: .5s;
+}
+
+.blog-text{
+    color: black;
+    font-size: 325%;
+    margin-top: 70px;
+    text-align: center;
+    font-family: century gothic;
+}
+
+
+@media screen and (max-width: 600px){
+    .blog-text{
+        font-size: 8vw;
+    }
+}
+
+
+.verysmall-heading{
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 100%;
+    font-family: century gothic;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1119px){
+    .verysmall-heading{
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .verysmall-heading{
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 90%;
+        margin-left: 0px;
+    }
+}
+
+.final-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1240px){
+    .final-container{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .final-container{
+        grid-template-columns: 100%;
+    }
+}
+
+.lastground-image{
+    background-image: url("https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: 100% 250px;
+}
+
+.inside-box{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.bold-text{
+    text-align: center;
+    font-weight: bold;
+    font-family: calibri light;
+    margin-top: 20px;
+    font-size: 120%;
+}
+
+.fa-calendar{
+    color: #c0c0c0;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.fa-text{
+    color: #c0c0c0;
+    font-size: 100%;
+    font-family: calibri light;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.fa-user{
+    color: #c0c0c0;
+    margin-right: 150px;
+    float: right;
+    margin-top: -20px;
+}
+
+.fa-text2{
+    color: #c0c0c0;
+    font-size: 100%;
+    float: right;
+    font-family: calibri light;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+
+
+.last-text{
+    margin-top: 40px;
+    font-size: 110%;
+    color: #c0c0c0;
+    font-family: calibri light;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.hyperlinks a{
+    color: black;
+    font-family: calibri light;
+    font-weight: bold;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.lastground-image2{
+    background-image: url("Images/apartment-architectural-design-architecture-323780.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    background-size: 100% 250px;
 }
