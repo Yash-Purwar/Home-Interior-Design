@@ -8,7 +8,7 @@ A website that I made for practising web designing skills. This website is made 
 * CSS
 * JavaScript
 
-### Featurs
+### Features
 
 * Awesome UI/UX
 * Comes with White and Yellow color theme
