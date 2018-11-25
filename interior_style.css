@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 700px;
     background-size: 100% 700px;
-    background-image: url("Images/apartment-architecture-bookcase-271816.jpg");
+    background-image: url("images/ceiling-comfort-contemporary-1571458.jpg");
     position: absolute;
     top: -100px;
 }
@@ -370,7 +370,7 @@ body {
 .grid-container4{
     display: grid;
     grid-template-columns: 33.333% 33.333% 33.333%;
-    grid-template-rows: 120px;
+  
     grid-gap: 10px;
     margin-top: 250px;
 }
@@ -483,9 +483,9 @@ body {
     float: left;
     width: 100%;
     margin-top: 60px;
-    height: 250px;
-    background-image: url("Images/architect-architecture-black-and-white-1537008.jpg");
-    background-size: 100% 250px;
+    height: 300px;
+    background-image: url("Images/pexels-photo-1080865.jpeg");
+    background-size: 100% 300px;
     background-repeat: no-repeat;
 }
 
@@ -911,7 +911,7 @@ body {
 }
 
 
-.material-icons{
+.fa-map-marker{
     color: orange;
     font-family: century gothic;
     font-size: 100%;
@@ -923,4 +923,21 @@ body {
     font-size: 100%;
     font-family: century gothic;
     margin-top: 20px; 
+}
+
+.span-background{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    overflow: hidden;
+}
+
+.span-text{
+    font-size: 300%;
+    float: left;
+    color: black;
+    font-family: century gothic;
+    margin-top: 30px;
+    margin-left: 20px;
 }
