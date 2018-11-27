@@ -26,8 +26,8 @@ body {
 
 .front-image{
     width: 100%;
-    height: 700px;
-    background-size: 100% 700px;
+    height: 750px;
+    background-size: 100% 750px;
     background-image: url("images/ceiling-comfort-contemporary-1571458.jpg");
     position: absolute;
     top: -100px;
@@ -66,7 +66,7 @@ body {
 .front-text{
     color: white;
     font-size: 300%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     margin-top: 300px;
     text-align:  center;
@@ -98,7 +98,8 @@ body {
 
 .front-second-text{
     font-size: 150%;
-    font-family: calibri light;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
     text-align: center;
     color: white;
     margin-top: 10px;
@@ -122,7 +123,7 @@ body {
     color: white;
     border: 2px solid white;
     border-radius: 50px;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 100%; 
     padding: 12px 20px;
@@ -147,7 +148,7 @@ body {
     text-align: center;
     font-size: 350%;
     color: black;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 700px;
     text-transform: capitalize;
 }
@@ -243,7 +244,7 @@ body {
   color: white;
   font-size: 15px;
   font-weight: bold;
-  font-family: century gothic;
+  font-family: 'Raleway', sans-serif;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -295,7 +296,7 @@ body {
     color: black;
     border: 1px solid black;
     border-radius: 50px;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 100%; 
     padding: 12px 20px;
@@ -320,7 +321,7 @@ body {
     float: left;
     color: black;
     font-size: 325%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 125px;
 }
 
@@ -341,10 +342,10 @@ body {
 
 .small-heading{
     float: left;
-    margin-left: -720px;
+    margin-left: -700px;
     color: #c0c0c0;
     font-size: 100%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 190px;
 }
 
@@ -399,7 +400,7 @@ body {
     font-weight: bold;
     color: black;
     margin-left: 0px;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     font-size: 100%;
 }
 
@@ -474,7 +475,7 @@ body {
     font-size: 325%;
     margin-top: 70px;
     text-align: center;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -523,7 +524,7 @@ body {
     color: black;
     border: 1px solid black;
     border-radius: 50px;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     font-size: 100%; 
     padding: 12px 20px;
@@ -561,7 +562,8 @@ body {
 }
 
 .wikipedia{
-    font-family: calibri light;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
     font-size: 110%;
     float: right;
     color: #c0c0c0;
@@ -680,7 +682,7 @@ body {
     font-size: 325%;
     margin-top: 70px;
     text-align: center;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -695,7 +697,7 @@ body {
     text-align: center;
     color: #c0c0c0;
     font-size: 100%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 10px;
 }
 
@@ -725,7 +727,7 @@ body {
     margin-top: 100px;
 }
 
-@media screen and (max-width: 1240px){
+@media screen and (max-width: 1270px){
     .final-container{
         grid-template-columns: 50% 50%;
     }
@@ -754,7 +756,8 @@ body {
 .bold-text{
     text-align: center;
     font-weight: bold;
-    font-family: calibri light;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
     margin-top: 20px;
     font-size: 120%;
 }
@@ -794,14 +797,15 @@ body {
     margin-top: 40px;
     font-size: 110%;
     color: #c0c0c0;
-    font-family: calibri light;
+    font-family: calibri light;   
     margin-left: 20px;
     text-align: left;
 }
 
 .hyperlinks a{
     color: black;
-    font-family: calibri light;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     float: right;
     margin-right: 30px;
@@ -875,7 +879,7 @@ body {
 
 .large-text{
     color: black;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     font-size: 300%;
     margin-top: 20px;
     text-align: center;
@@ -884,21 +888,21 @@ body {
 .fa-envelope{
     color: orange;
     font-size: 100%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 .mail{
     color: #c0c0c0;
     font-size: 100%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 
 .fa-phone{
     color: orange;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     font-size: 100%;
     margin-top: 20px;
 }
@@ -906,14 +910,14 @@ body {
 .phone{
     color: #c0c0c0;
     font-size: 100%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 20px;
 }
 
 
 .fa-map-marker{
     color: orange;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     font-size: 100%;
     margin-top: 20px; 
 }
@@ -921,7 +925,7 @@ body {
 .location{
     color: #c0c0c0;
     font-size: 100%;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 20px; 
 }
 
@@ -944,14 +948,14 @@ body {
     font-size: 300%;
     float: left;
     color: black;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 30px;
     margin-left: 20px;
 }
 
 .span-lower-text{
     color: #c0c0c0;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     font-size: 100%;
     margin-left: 20px;
     margin-top: 20px;
@@ -964,7 +968,7 @@ body {
     font-size: 300%;
     float: right;
     color: black;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     margin-top: 30px;
     margin-right: 140px;
 }
@@ -1054,7 +1058,7 @@ body {
 
 .finish-text{
     color: white;
-    font-family: century gothic;
+    font-family: 'Raleway', sans-serif;
     font-size: 120%;
     position: relative;
     top: 75px;

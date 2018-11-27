@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    margin-top: 50px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -9,12 +10,18 @@
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+        background-size: 100%;
 }
 
 .column img {
     margin-top: 8px;
     vertical-align: middle;
 }
+
+
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
@@ -40,4 +47,18 @@
 body {
     margin: 0;
     font-family: Arial;
+}
+
+.gallery{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    font-size: 600%;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+@media screen and (max-width: 350px){
+    .gallery{
+        font-size: 500%;
+    }
 }
